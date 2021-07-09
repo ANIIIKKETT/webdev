@@ -1,0 +1,45 @@
+h1{
+	font: italic;
+	color: red;
+	background: pink;
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+
+
+}
+a{
+	color: brown;
+	background-color: pink;
+	width:200px;
+	text-decoration: none;
+}
+section a{
+	color: brown;
+	background-color: pink;
+	width:100px;
+	text-decoration: none;
+}
+p{
+	color:black;
+	background-color: grey;
+	text-align: center;
+}
+/*h2:link , h2:visited{
+	text-decoration: none;
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+	display: block;
+	margin-bottom: 1px;
+
+}*/
+h2:hover ,h2:active{
+	color: red;
+	background-color: green;
+	width: 100px;
+}
+div{
+	text-align: center;
+}
