@@ -43,3 +43,8 @@ h2:hover ,h2:active{
 div{
 	text-align: center;
 }
+h3:hover , h3:active{
+	color: green;
+	background-color: pink;
+	width: 400px;
+}
