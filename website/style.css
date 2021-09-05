@@ -262,7 +262,7 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
-    padding-top: 10px;
+    padding-top: 5px;
     height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
