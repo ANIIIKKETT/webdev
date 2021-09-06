@@ -44,7 +44,7 @@ var insertProperty = function (string, propName, propValue) {
 }
 
 // Remove the class 'active' from home and switch to Menu button
-var switchMenuToActive = function () {
+/*var switchMenuToActive = function () {
   // Remove 'active' from home button
   var classes = document.querySelector("#navHomeButton").className;
   classes = classes.replace(new RegExp("active", "g"), "");
@@ -56,7 +56,7 @@ var switchMenuToActive = function () {
     classes += " active";
     document.querySelector("#navMenuButton").className = classes;
   }
-};
+};*/
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -101,7 +101,7 @@ function buildAndShowCategoriesHTML (categories) {
         categoryHtml,
         function (categoryHtml) {
           // Switch CSS class active to menu button
-          switchMenuToActive();
+          /*switchMenuToActive();*/
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
@@ -125,7 +125,7 @@ function buildCategoriesViewHtml(categories,
   finalHtml += "<section class='row'>";
 
   // Loop over categories
-  for (var i = 0; i < categories.length; i++) {
+  for (var i = 0; i < categories. length; i++) {
     // Insert category values
     var html = categoryHtml;
     var name = "" + categories[i].name;
@@ -157,7 +157,7 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
         menuItemHtml,
         function (menuItemHtml) {
           // Switch CSS class active to menu button
-          switchMenuToActive();
+          /*switchMenuToActive();*/
 
           var menuItemsViewHtml =
             buildMenuItemsViewHtml(categoryMenuItems,
